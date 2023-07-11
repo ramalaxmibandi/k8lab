@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: log-config
+data:
+  key: log_level
+  path: /var/k8s
